@@ -9,6 +9,6 @@
     "allowJs": true,
     "noImplicitAny": true,
     "strict": false,
-    "module": "CommonJS",
+    "module": "CommonJS"
   }
 }
