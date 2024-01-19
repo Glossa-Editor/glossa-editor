@@ -2,11 +2,14 @@
   "extends": "../base.tsconfig.json",
   "compilerOptions": {
     "jsx": "react-jsx",
+    "paths": {
+      "@app/*": ["./src/*"],
+    },
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "baseUrl": ".",
     "types": ["vitest/importMeta"],
   },
-  "include": ["**/*.tsx", "**/*.ts"]
+  "include": ["**/*.tsx", "**/*.ts"],
 }
