@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-just a test file
-
-another line
-=======
-just a test file
->>>>>>> c5483c41e189b7bf75634f2ae1e44c741a4ad5b2
+hello_world
